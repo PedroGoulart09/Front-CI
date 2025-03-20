@@ -2,7 +2,6 @@ import './globals.css'
 
 export default async function Home() {
 
-
   const res = await fetch("https://jsonplaceholder.typicode.com/posts", {
     cache: "force-cache",
   });

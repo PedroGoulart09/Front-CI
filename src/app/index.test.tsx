@@ -4,6 +4,5 @@ import Home from "./page";
 
 test('loads and displays greeting', () => {
   render(<Home />)
-
   expect(screen.getByText('Hello World')).toBeInTheDocument()
 })
